@@ -107,7 +107,13 @@ hr.title-line {
     .hero-nav-bar {
         right: 0;
         left: 0;
-
         width: auto;
+        max-width: 100%;
+    }
+
+    .nav-item {
+        padding: 0 2%;
+        max-width: inherit;
+        width: fit-content;
     }
 }
