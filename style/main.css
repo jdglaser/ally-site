@@ -31,26 +31,29 @@ html, body {
 /* Home (Hero) */
 .home {
     min-height: 100vh;
-    grid-template-rows: 1fr 16fr;
+    grid-template-rows: auto 1fr;
     background: url(/img/table-test2_dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    text-align: center;
+    row-gap: 175px;
 }
 
 .title-text {
-    margin-top: 150px;
     color: white;
     text-align: center;
     font-size: 3rem;
     letter-spacing: 0.3em;
+    text-indent: 0.3em;
     line-height: 3rem;
     font-family: 'Raleway', sans-serif;
-    padding: 5px;
+    padding: 10px 0;
 }
 
 hr.title-line {
+    margin: 0 auto;
     width: 200px;
     border: none;
     height: 1px;
