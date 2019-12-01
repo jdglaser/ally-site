@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+}
+
+.wrapper > * {
+    border: 2px solid blue;
+}
+
+section {
+    display: grid;
+}
+
+section > * {
+    background: darkgray
+}
+
+section > *:nth-child(odd) {
+    background: lightgrey
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
+    align-content: center;
+}
+
+.nav > * {
+    border: 1px solid green;
+}
+
+.nav-item {
+    color: white;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    filter: brightness(100%);
+}
+
+.home {
+    height: 100vh;
+    grid-template-rows: 1fr 16fr;
+}
+
+.title > h1 {
+}
