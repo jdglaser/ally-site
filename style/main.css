@@ -131,6 +131,62 @@ hr.about-line {
     opacity: 0.75;
 }
 
+/* Event Spotlight */
+.event-spotlight {
+    grid-template-columns: 3fr 1fr;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.07em;
+    height: auto;
+}
+
+.event-info {
+    padding: 50px 25px;
+    background: #202124;
+    color: white;
+}
+
+.event-pic {
+    background-image: url("/img/wedding-test2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.event-title {
+    text-align: left;
+    margin-left: 0;
+    padding-bottom: 25px;
+}
+
+.event-line {
+    width: 250px;
+    border-bottom: 1px solid white;
+    margin: 15px 0px;
+    height: 1px;
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+
+.event-head {
+    width: fit-content;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+
+.event-subtext {
+    padding-top: 5px;
+}
+
+.event-quote {
+    font-style: italic;
+}
+
+.dummy {
+    height: 500px;
+}
+
 @media only screen and (max-width: 1000px) {
     .nav-bar {
         grid-template-columns: 0fr repeat(4, 1fr);
@@ -138,5 +194,12 @@ hr.about-line {
 
     .slogan {
         font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .event-spotlight {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 400px;
     }
 }
