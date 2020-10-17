@@ -16,7 +16,7 @@ span {
     font-size: large;
     letter-spacing: 0.15em;
     font-size: 14pt;
-    color: #CCB166;
+    color: #b09856;
     font-weight: bolder;
 }
 
@@ -34,3 +34,11 @@ img {
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
   }
+
+.insta {
+    color: #b09856;
+}
+
+.insta:hover {
+    opacity: 50%;
+}
